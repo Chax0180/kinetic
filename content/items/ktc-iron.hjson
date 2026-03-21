@@ -3,4 +3,4 @@ description: "A shiny, white metal. Can be made into more durable parts."
 hardness: 2
 alwaysUnlocked: true
 color: d8d8d8
-research: copper
+research: ktc-copper
