@@ -30,13 +30,13 @@ drawer: {
       type: DrawPistons
       suffix: -piston
       sinMag: 2
-      sinScl: 3
+      sinScl: 2
     }
     {
       type: DrawRegion
       suffix: -alternator
       spinSprite: true
-      rotateSpeed: 4
+      rotateSpeed: 2
     }
     {
       type: DrawRegion
