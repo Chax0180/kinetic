@@ -1,0 +1,50 @@
+name: Boiler
+type: HeatCrafter
+  heatRequirement: 18
+  maxEfficiency: 2
+  size: 3
+  consumes:{
+liquids: [
+water/0.2
+]
+}
+outputLiquid: ktc-steam/1.8
+
+description: Turns water into steam using heat. Each unit of heat produces enough water to supply one steam piston.
+  
+destructible:true
+  solid:true
+  underBullets:true
+  breakable:true
+  
+health:800
+  ambientSound:steam
+  requirements:[
+  ktc-copper/120
+  ktc-iron/40
+  ]
+research:crude-burner
+category: crafting
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -base
+    }
+    {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: water
+    }
+    {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: steam
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
