@@ -1,0 +1,5 @@
+name: Copper
+description: A versatile metal. Can be used for various purposes, primarily in fluid handling and electronics.
+alwaysUnlocked: true
+color: e3826c
+research: core-depot
