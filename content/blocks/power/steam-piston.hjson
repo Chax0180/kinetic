@@ -11,7 +11,7 @@ requirements: [
   ktc-brass/24
 ]
 consumes: {
-  liquid: ktc-steam/0.1
+  liquid: ktc-steam/0.11111111111
 }
 hasLiquids: true
 liquidCapacity: 30
