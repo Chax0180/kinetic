@@ -17,7 +17,7 @@ hasLiquids: true
 liquidCapacity: 30
 powerProduction: 6
   
-ambientSound: steamEngine
+ambientSound: loopMachineSpin
 ambientSoundVolume: 0.04
 squareSprite: false
 drawer: {
@@ -30,7 +30,7 @@ drawer: {
       type: DrawPistons
       suffix: -piston
       sinMag: 2
-      sinScl: 4
+      sinScl: 6
     }
     {
       type: DrawRegion
