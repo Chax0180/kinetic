@@ -9,3 +9,8 @@ health: 180
 engineOffset: 2
 engineSize: 2
 hitSize: 5
+buildSpeed: 1
+mineItems: [aluminum, iron]
+mineWalls: true
+mineFloor: true
+itemCapacity: 30
