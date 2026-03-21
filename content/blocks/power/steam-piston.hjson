@@ -24,8 +24,7 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: -bottom
+      type: DrawDefault
     }
     {
       type: DrawPistons
@@ -36,18 +35,13 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -cap
-    }
-    {
-      type: DrawRegion
       suffix: -alternator
       spinSprite: true
       rotateSpeed: 4
-      x: 0
-      y: 0
     }
     {
-      type: DrawDefault
+      type: DrawRegion
+      suffix: -cap
     }
   ]
 }
