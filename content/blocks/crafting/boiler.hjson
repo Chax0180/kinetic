@@ -5,10 +5,10 @@ type: HeatCrafter
   size: 3
   consumes:{
 liquids: [
-water/1
+water/1.5
 ]
 }
-outputLiquid: ktc-steam/1
+outputLiquid: ktc-steam/1.5
 
 description: Turns water into steam using heat. Each unit of heat produces enough water to supply one steam piston.
   
