@@ -18,7 +18,8 @@ destructible:true
   breakable:true
   
 health:800
-  ambientSound:steam
+  ambientSound: loopCultivator
+  ambientSoundVolume: 0.08
   requirements:[
   ktc-copper/120
   ktc-iron/40
