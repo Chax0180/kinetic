@@ -41,7 +41,7 @@ drawer: {
     {
       type: DrawLiquidTile
       padding: 3
-      drawLiquid: steam
+      drawLiquid: ktc-steam
     }
     {
       type: DrawDefault
