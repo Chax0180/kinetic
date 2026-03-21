@@ -10,7 +10,7 @@ engineOffset: 2
 engineSize: 2
 hitSize: 5
 buildSpeed: 1
-mineItems: [aluminum, iron]
+mineItems: [copper]
 mineWalls: true
 mineFloor: true
 itemCapacity: 30
