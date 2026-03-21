@@ -1,0 +1,17 @@
+type: CoreBlock
+name: Core: Depot
+description: Core of the base. Unarmored, but stores a large amount of items. Once destroyed, the sector is lost.
+requirements: [
+  ktc-copper/1200
+  ktc-iron/600
+  ktc-zinc/800
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: cd1b-operator
+health: 3650
+itemCapacity: 5000
+unitCapModifier: 8
+category: effect
