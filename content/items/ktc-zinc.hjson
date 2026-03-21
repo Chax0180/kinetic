@@ -1,0 +1,5 @@
+name: Iron
+description: "A greenish metal. Used primarily in the production of alloys."
+hardness: 3
+color: a1c09f
+research: ktc-iron
