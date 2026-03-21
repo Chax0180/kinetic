@@ -1,14 +1,14 @@
 name: Boiler
 type: HeatCrafter
-  heatRequirement: 18
+  heatRequirement: 9
   maxEfficiency: 2
   size: 3
   consumes:{
 liquids: [
-water/0.2
+water/1
 ]
 }
-outputLiquid: ktc-steam/1.8
+outputLiquid: ktc-steam/1
 
 description: Turns water into steam using heat. Each unit of heat produces enough water to supply one steam piston.
   
