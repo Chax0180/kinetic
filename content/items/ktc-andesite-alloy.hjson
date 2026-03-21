@@ -1,1 +1,6 @@
-
+name: Andesite Alloy
+description: "A useful alloy. Can resist intense torsion and physical stress."
+hardness: 2
+alwaysUnlocked: true
+color: d8d8d8
+research: ktc-zinc
