@@ -1,0 +1,11 @@
+type: flying
+name: "CD-1/B [Operator]"
+speed: 1.6
+accel: 0.07
+drag: 0.04
+rotateSpeed: 3
+flying: true
+health: 180
+engineOffset: 2
+engineSize: 2
+hitSize: 5
