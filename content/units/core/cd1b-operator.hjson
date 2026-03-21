@@ -10,7 +10,7 @@ engineOffset: 2
 engineSize: 2
 hitSize: 5
 buildSpeed: 1
-mineItems: [copper]
+mineItems: [copper, lead, coal, ktc-copper]
 mineWalls: true
 mineFloor: true
 itemCapacity: 30
