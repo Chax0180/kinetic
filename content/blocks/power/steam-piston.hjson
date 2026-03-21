@@ -1,0 +1,53 @@
+type: ConsumeGenerator
+name: Steam Piston
+description: Utilizes the pressure from hot steam to produce large amounts of power.
+size: 2
+category: power
+research: boiler
+requirements: [
+  ktc-copper/60
+  ktc-iron/48
+  ktc-andesite-alloy/24
+  ktc-brass/24
+]
+consumes: {
+  liquid: ktc-steam/0.1
+}
+hasLiquids: true
+liquidCapacity: 30
+powerProduction: 6
+  
+ambientSound: steamEngine
+ambientSoundVolume: 0.04
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawPistons
+      suffix: -piston
+      angleOffset: 45
+      sinMag: 2
+      sinScl: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -cap
+    }
+    {
+      type: DrawRegion
+      suffix: -alternator
+      spinSprite: true
+      rotateSpeed: 4
+      x: 0
+      y: 0
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
