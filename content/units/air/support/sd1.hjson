@@ -6,8 +6,8 @@ drag: 0.04
 rotateSpeed: 8
 flying: true
 health: 180
-engineOffset: -1.5
-engineSize: 4
+engineOffset: -1
+engineSize: 3.5
 hitSize: 5
 buildSpeed: 0.75
 mineItems: [copper, lead, coal, ktc-copper]
