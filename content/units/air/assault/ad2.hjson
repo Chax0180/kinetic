@@ -39,7 +39,7 @@ outlineColor: 353535
             velocityScaleRandMin: 0.8
             velocityScaleRandMax: 1.2
             drag: 0.08
-            lifetime: 10
+            lifetime: 30
             damage: 10
             trailChance: 1
             width: 7
