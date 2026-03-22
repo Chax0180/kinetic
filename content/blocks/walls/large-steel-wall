@@ -1,0 +1,12 @@
+type: Wall
+name: Large Steel Wall
+description: A large wall made of steel. Protects allied structures from damage.
+size: 2
+health: 3100
+category: defense
+squareSprite: true
+research: iron-wall
+requirements: [
+  steel/24
+] 
+researchCostMultiplier: 0.1
