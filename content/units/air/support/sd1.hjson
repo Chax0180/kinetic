@@ -36,7 +36,7 @@ mirror: false
             healPercent: 2
             speed: 10
             lifetime: 10
-            damage: 9
+            damage: 8
             trailChance: 1
             width: 7
             height: 9
