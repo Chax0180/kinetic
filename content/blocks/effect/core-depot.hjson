@@ -4,7 +4,7 @@ description: Core of the base. Unarmored, but stores a large amount of items. On
 requirements: [
   ktc-copper/1200
   ktc-iron/600
-  ktc-zinc/800
+  ktc-andesite-alloy/800
 ]
 isFirstTier: true
 size: 3
