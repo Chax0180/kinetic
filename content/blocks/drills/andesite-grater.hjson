@@ -8,7 +8,7 @@ requirements: [
   ktc-copper/20
 ]
 drillTime: 180
-output: ktc-andesite/1
+output: ktc-andesite
 attribute: ktc-andesite
 ambientSound: loopDrill
 ambientSoundVolume: 0.04
