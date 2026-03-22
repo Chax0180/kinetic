@@ -20,6 +20,10 @@ engines: [
   }
 ]
 hitSize: 5
+buildSpeed: 1.45
+mineItems: [ktc-copper, ktc-iron]
+mineWalls: true
+mineFloor: true
 itemCapacity: 30
 
 outlineColor: 353535
