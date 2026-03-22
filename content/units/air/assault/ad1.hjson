@@ -17,7 +17,7 @@ outlineColor: 353535
 
   weapons: [
    {    
-      x: 5
+      x: -5
         y: 0
         name: ad1-mg
         reload: 15
@@ -32,7 +32,7 @@ outlineColor: 353535
         bullet: {
           type: BasicBulletType
             speed: 10
-            lifetime: 30
+            lifetime: 15
             damage: 9
             trailChance: 1
             width: 7
