@@ -1,5 +1,5 @@
 type: flying
-name: "AD-2/SG [Scorcher]"
+name: "SD-2/L [Artisan]"
 speed: 4.2
 accel: 0.07
 drag: 0.04
@@ -42,7 +42,7 @@ y: 1
         bullet: {
           type: BasicBulletType
             collidesTeam: true
-            healPercent: 2
+            healPercent: 0.67
             speed: 10
             lifetime: 10
             damage: 9
