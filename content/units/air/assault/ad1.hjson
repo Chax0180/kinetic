@@ -19,7 +19,6 @@ outlineColor: 353535
    {    
       x: -5
         y: 0
-        name: ad1-mg
         reload: 15
         mirror: true
         inaccuracy: 2
