@@ -41,6 +41,7 @@ mirror: false
             width: 7
             height: 9
 hitEffect: disperseTrail
+despawnEffect: disperseTrail
       trailColor: b1e9c0
       backColor: b1e9c0
       frontColor: ffffff
