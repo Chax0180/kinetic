@@ -40,6 +40,7 @@ mirror: false
             trailChance: 1
             width: 7
             height: 9
+hitEffect: disperseTrail
       trailColor: b1e9c0
       backColor: b1e9c0
       frontColor: ffffff
