@@ -21,7 +21,7 @@ outlineColor: 353535
    {    
         x: 0
         y: 3
-        reload: 45
+        reload: 20
         inaccuracy: 2
         rotate: true
 mirror: false
@@ -35,7 +35,7 @@ mirror: false
             collidesTeam: true
             healPercent: 2
             speed: 10
-            lifetime: 15
+            lifetime: 10
             damage: 9
             trailChance: 1
             width: 7
