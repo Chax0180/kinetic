@@ -25,7 +25,7 @@ outlineColor: 353535
         rotate: true
         rotationLimit: 30
         recoil: 0.2
-    shootSound: shoot
+    shootSound: shootDiffuse
     soundPitchMin: 0.6
     soundPitchMax: 0.8
         shoot:{
@@ -38,6 +38,7 @@ outlineColor: 353535
             lifeScaleRandMax: 1.1
             velocityScaleRandMin: 0.8
             velocityScaleRandMax: 1.2
+            drag: 0.08
             lifetime: 10
             damage: 10
             trailChance: 1
