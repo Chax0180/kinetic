@@ -31,7 +31,7 @@ outlineColor: 353535
         y: 1
         reload: 45
         mirror: true
-        inaccuracy: 15
+        inaccuracy: 7.5
         rotate: true
         rotationLimit: 30
         recoil: 1
@@ -43,17 +43,19 @@ outlineColor: 353535
         }
         bullet: {
           type: BasicBulletType
-            speed: 8
+            speed: 10
             lifeScaleRandMin: 0.8
             lifeScaleRandMax: 1.1
             velocityScaleRandMin: 0.8
             velocityScaleRandMax: 1.2
             drag: 0.06
             lifetime: 30
-            damage: 10
+            damage: 15
             trailChance: 1
             width: 7
             height: 9
+      status: burning
+      statusDuration: 180
       trailLength: 10
       trailWidth: 1
         }
