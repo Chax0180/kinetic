@@ -10,7 +10,7 @@ isFirstTier: true
 size: 3
 squareSprite: false
 alwaysUnlocked: true
-unitType: cd1b
+unitType: cd1
 health: 3650
 itemCapacity: 5000
 unitCapModifier: 8
