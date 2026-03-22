@@ -16,3 +16,37 @@ mineFloor: true
 itemCapacity: 30
 
 outlineColor: 353535
+
+  weapons: [
+   {    
+        x: 0
+        y: 3
+        reload: 20
+        inaccuracy: 2
+        rotate: true
+mirror: false
+        rotationLimit: 30
+        recoil: 0.2
+    shootSound: shootLaser
+    soundPitchMin: 0.6
+    soundPitchMax: 0.8
+        bullet: {
+          type: BasicBulletType
+            collidesTeam: true
+            healPercent: 2
+            speed: 10
+            lifetime: 10
+            damage: 8
+            trailChance: 1
+            width: 7
+            height: 9
+hitEffect: disperseTrail
+despawnEffect: disperseTrail
+      trailColor: b1e9c0
+      backColor: b1e9c0
+      frontColor: ffffff
+      trailLength: 10
+      trailWidth: 1
+        }
+    }
+]
