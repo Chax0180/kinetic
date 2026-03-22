@@ -1,0 +1,12 @@
+type: Wall
+name: Iron Wall
+description: A small wall made of iron. Protects allied structures from damage.
+size: 2
+health: 420
+category: defense
+squareSprite: true
+research: core-depot
+requirements: [
+  iron/6
+] 
+researchCostMultiplier: 0.1
