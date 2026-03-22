@@ -19,10 +19,12 @@ outlineColor: 353535
 
   weapons: [
    {    
+        x: 0
         y: 3
         reload: 45
         inaccuracy: 2
         rotate: true
+mirror: false
         rotationLimit: 30
         recoil: 0.2
     shootSound: shootLaser
@@ -38,9 +40,9 @@ outlineColor: 353535
             trailChance: 1
             width: 7
             height: 9
-      trailColor: 4d6f66
-      backColor: 4d6f66
-      frontColor: b1e9c0
+      trailColor: b1e9c0
+      backColor: b1e9c0
+      frontColor: ffffff
       trailLength: 10
       trailWidth: 1
         }
