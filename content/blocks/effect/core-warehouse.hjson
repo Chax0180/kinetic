@@ -1,0 +1,18 @@
+type: CoreBlock
+name: Core: Warehouse
+description: Core of the base. Lightly armored, and stores a much larger amount of items. Once destroyed, the sector is lost.
+requirements: [
+  ktc-copper/2200
+  ktc-iron/1300
+  ktc-andesite-alloy/1000
+  ktc-steel/1000
+]
+isFirstTier: false
+size: 4
+squareSprite: false
+research: core-depot
+unitType: cd2
+health: 5480
+itemCapacity: 10000
+unitCapModifier: 14
+category: effect
