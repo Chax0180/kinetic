@@ -8,8 +8,18 @@ rotateSpeed: 6
 flying: true
 health: 400
 armor: 3
-engineOffset: -1
-engineSize: 3.5
+engines: [
+  {
+    x: 0
+    y: 0
+    radius: 4
+  }
+  {
+    x: 0
+    y: -5
+    radius: 2
+  }
+]
 hitSize: 5
 itemCapacity: 30
 
