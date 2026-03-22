@@ -1,0 +1,15 @@
+type: WallCrafter
+name: Andesite Grater
+description: Slowly grinds andesite walls, producing Andesite.
+size: 2
+category: production
+research: core-depot
+requirements: [
+  ktc-copper/20
+]
+drillTime: 180
+output: ktc-andesite/1
+attribute: ktc-andesite
+ambientSound: loopDrill
+ambientSoundVolume: 0.04
+alwaysUnlocked: true
