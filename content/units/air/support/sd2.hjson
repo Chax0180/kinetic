@@ -26,25 +26,34 @@ outlineColor: 353535
 
   weapons: [
    {    
-      x: -7
-        y: 1
-        reload: 45
-        mirror: true
-        inaccuracy: 1
+        x: 0
+        y: 3
+        reload: 10
+        inaccuracy: 2
         rotate: true
+mirror: true
+x: 5
+y: 1
         rotationLimit: 30
-        recoil: 1
+        recoil: 0.2
     shootSound: shootLaser
     soundPitchMin: 0.6
     soundPitchMax: 0.8
         bullet: {
           type: BasicBulletType
+            collidesTeam: true
+            healPercent: 2
             speed: 10
-            lifetime: 30
-            damage: 18
+            lifetime: 10
+            damage: 9
             trailChance: 1
             width: 7
             height: 9
+hitEffect: disperseTrail
+despawnEffect: disperseTrail
+      trailColor: b1e9c0
+      backColor: b1e9c0
+      frontColor: ffffff
       trailLength: 10
       trailWidth: 1
         }
