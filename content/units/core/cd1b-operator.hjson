@@ -1,9 +1,9 @@
 type: flying
 name: "CD-1/B [Operator]"
-speed: 1.6
+speed: 3.2
 accel: 0.07
 drag: 0.04
-rotateSpeed: 3
+rotateSpeed: 8
 flying: true
 health: 180
 engineOffset: 2
@@ -16,4 +16,3 @@ mineFloor: true
 itemCapacity: 30
 
 outlineColor: 353535
-cellRegion: d1-cell
