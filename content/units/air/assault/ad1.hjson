@@ -17,7 +17,7 @@ outlineColor: 353535
 
   weapons: [
    {    
-      x: 10
+      x: 5
         y: 0
         name: ad1-mg
         reload: 15
