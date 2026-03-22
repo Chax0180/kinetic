@@ -1,0 +1,50 @@
+type: flying
+name: "AD-2/SG [Scorcher]"
+speed: 2.8
+accel: 0.05
+drag: 0.04
+rotateSpeed: 6
+  //:"All assault unit measures above except drag are 2 points worse than the other units'."
+flying: true
+health: 200
+armor: 1
+engineOffset: -1
+engineSize: 3.5
+hitSize: 5
+itemCapacity: 30
+
+outlineColor: 353535
+
+  weapons: [
+   {    
+      x: -7
+        y: 1
+        reload: 30
+        mirror: true
+        inaccuracy: 10
+        rotate: true
+        rotationLimit: 30
+        recoil: 0.2
+    shootSound: shoot
+    soundPitchMin: 0.6
+    soundPitchMax: 0.8
+        shoot:{
+        shots: 5
+        }
+        bullet: {
+          type: BasicBulletType
+            speed: 8
+            lifeScaleRandMin: 0.8
+            lifeScaleRandMax: 1.1
+            velocityScaleRandMin: 0.8
+            velocityScaleRandMax: 1.2
+            lifetime: 10
+            damage: 10
+            trailChance: 1
+            width: 7
+            height: 9
+      trailLength: 10
+      trailWidth: 1
+        }
+    }
+]
