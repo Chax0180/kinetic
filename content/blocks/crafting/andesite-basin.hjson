@@ -1,0 +1,52 @@
+name: Andesite Basin
+type: GenericCrafter
+  size: 2
+  consumes:{
+items:[
+ktc-andesite/3
+ktc-zinc/1
+  ]
+}
+outputItem: ktc-andesite-alloy/2
+
+description: Grinds Andesite into a fine powder and mixes it with melted Zinc to form Andesite Alloy.
+  
+destructible:true
+  solid:true
+  underBullets:true
+  breakable:true
+  
+health:800
+  ambientSound: loopDrill
+  ambientSoundVolume: 0.04
+  requirements:[
+  ktc-copper/40
+  ktc-iron/60
+  ]
+research:andesite-grater
+category: crafting
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -mix-outer
+      spinSprite: true
+      rotateSpeed: 4
+    }
+    {
+      type: DrawRegion
+      suffix: -mix-inner
+      spinSprite: true
+      rotateSpeed: -4
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
