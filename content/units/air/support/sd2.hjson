@@ -1,0 +1,52 @@
+type: flying
+name: "AD-2/SG [Scorcher]"
+speed: 4.2
+accel: 0.07
+drag: 0.04
+rotateSpeed: 6
+flying: true
+health: 320
+armor: 2
+engines: [
+  {
+    x: 0
+    y: 0
+    radius: 4
+  }
+  {
+    x: 0
+    y: -5
+    radius: 2
+  }
+]
+hitSize: 5
+itemCapacity: 30
+
+outlineColor: 353535
+
+  weapons: [
+   {    
+      x: -7
+        y: 1
+        reload: 45
+        mirror: true
+        inaccuracy: 1
+        rotate: true
+        rotationLimit: 30
+        recoil: 1
+    shootSound: shootLaser
+    soundPitchMin: 0.6
+    soundPitchMax: 0.8
+        bullet: {
+          type: BasicBulletType
+            speed: 10
+            lifetime: 30
+            damage: 18
+            trailChance: 1
+            width: 7
+            height: 9
+      trailLength: 10
+      trailWidth: 1
+        }
+    }
+]
