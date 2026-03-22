@@ -7,6 +7,6 @@ category: defense
 squareSprite: true
 research: core-depot
 requirements: [
-  iron/6
+  ktc-iron/6
 ] 
 researchCostMultiplier: 0.1
