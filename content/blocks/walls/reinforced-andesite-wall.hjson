@@ -1,0 +1,14 @@
+type: Wall
+name: Reinforced Andeesite Wall
+description: A large wall made of andesite alloy reinforced internally with steel. Protects allied structures from damage.
+size: 2
+health: 2800
+armor: 6
+category: defense
+squareSprite: true
+research: steel-wall
+requirements: [
+  ktc-andesite-alloy/24
+  ktc-steel/12
+] 
+researchCostMultiplier: 0.1
