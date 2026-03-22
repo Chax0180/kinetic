@@ -6,8 +6,8 @@ drag: 0.04
 rotateSpeed: 6
   //:"All assault unit measures above except drag are 2 points worse than the other units'."
 flying: true
-health: 200
-armor: 1
+health: 400
+armor: 3
 engineOffset: -1
 engineSize: 3.5
 hitSize: 5
@@ -19,12 +19,12 @@ outlineColor: 353535
    {    
       x: -7
         y: 1
-        reload: 30
+        reload: 45
         mirror: true
-        inaccuracy: 10
+        inaccuracy: 15
         rotate: true
         rotationLimit: 30
-        recoil: 0.2
+        recoil: 1
     shootSound: shootDiffuse
     soundPitchMin: 0.6
     soundPitchMax: 0.8
@@ -38,7 +38,7 @@ outlineColor: 353535
             lifeScaleRandMax: 1.1
             velocityScaleRandMin: 0.8
             velocityScaleRandMax: 1.2
-            drag: 0.08
+            drag: 0.06
             lifetime: 30
             damage: 10
             trailChance: 1
