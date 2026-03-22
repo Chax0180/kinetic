@@ -14,3 +14,4 @@ mineItems: [copper, lead, coal, ktc-copper]
 mineWalls: true
 mineFloor: true
 itemCapacity: 30
+outlineColor: 353535
