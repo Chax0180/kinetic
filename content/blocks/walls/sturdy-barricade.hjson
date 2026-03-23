@@ -1,0 +1,13 @@
+type: Wall
+name: Sturdy Barricade
+description: A huge wall made from sturdy sheets. Protects allied structures from damage.
+size: 2
+health: 7920
+armor: 8
+category: defense
+squareSprite: true
+research: reinforced-andesite-wall
+requirements: [
+  ktc-sturdy-sheet/108
+  ktc-steel/60
+]
