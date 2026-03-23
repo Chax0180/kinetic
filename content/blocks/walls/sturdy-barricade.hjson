@@ -10,6 +10,6 @@ research: reinforced-andesite-wall
 requirements: [
   ktc-sturdy-ceramic/108
   ktc-steel/60
+]
 insulated: true
 absorbLasers: true
-]
