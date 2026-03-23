@@ -1,7 +1,7 @@
 type: Wall
 name: Sturdy Barricade
 description: A huge wall made from sturdy ceramic. Protects allied structures from damage. Absorbs electric arcs and lasers, and blocks automatic power connections.
-size: 2
+size: 3
 health: 7920
 armor: 8
 category: defense
