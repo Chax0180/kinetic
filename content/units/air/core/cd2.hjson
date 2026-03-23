@@ -48,7 +48,7 @@ y: 1
         bullet: {
           type: BasicBulletType
             collidesTeam: true
-            healPercent: 0.67
+            healPercent: 1
             speed: 10
             lifetime: 10
             damage: 11
