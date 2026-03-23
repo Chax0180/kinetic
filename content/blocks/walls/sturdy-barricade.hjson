@@ -1,6 +1,6 @@
 type: Wall
 name: Sturdy Barricade
-description: A huge wall made from sturdy sheets. Protects allied structures from damage.
+description: A huge wall made from sturdy ceramic. Protects allied structures from damage. Absorbs electric arcs and lasers, and blocks automatic power connections.
 size: 2
 health: 7920
 armor: 8
@@ -8,6 +8,8 @@ category: defense
 squareSprite: true
 research: reinforced-andesite-wall
 requirements: [
-  ktc-sturdy-sheet/108
+  ktc-sturdy-ceramic/108
   ktc-steel/60
+insulated: true
+absorbLasers: true
 ]
