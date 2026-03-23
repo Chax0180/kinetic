@@ -33,7 +33,7 @@ mirror: false
         bullet: {
           type: BasicBulletType
             collidesTeam: true
-            healPercent: 2
+            healPercent: 0.08
             speed: 10
             lifetime: 10
             damage: 8
