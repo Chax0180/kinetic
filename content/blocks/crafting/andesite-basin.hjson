@@ -34,6 +34,24 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawParticles
+      color: 87878b
+      alpha: 1
+      particleSize: 1.6
+      particles: 10
+      particleRad: 12
+      particleLife: 60
+    }
+    {
+      type: DrawParticles
+      color: a1c09f
+      alpha: 1
+      particleSize: 1.6
+      particles: 10
+      particleRad: 12
+      particleLife: 60
+    }
+    {
       type: DrawRegion
       suffix: -mix-outer
       spinSprite: true
