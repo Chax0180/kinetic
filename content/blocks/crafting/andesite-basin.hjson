@@ -40,12 +40,6 @@ drawer: {
       rotateSpeed: 4
     }
     {
-      type: DrawRegion
-      suffix: -mix-inner
-      spinSprite: true
-      rotateSpeed: -4
-    }
-    {
       type: DrawDefault
     }
   ]
