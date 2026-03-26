@@ -1,0 +1,5 @@
+name: Raw Iron
+description: Raw ore. Useless on its own; must be processed first.
+color: e3826c
+research: core-depot
+hardness: 2
