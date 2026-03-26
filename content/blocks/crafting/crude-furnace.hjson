@@ -1,7 +1,7 @@
 type: multicraft.MultiCrafter
 name: Crude Furnace
 description: Smelts basic raw ores into usable metal. Requires coal.
-details: Primitive. A proper replacement should be found immedietly.
+details: Primitive. A proper replacement should be found immediately.
 size: 3
 health: 480
 category: production
