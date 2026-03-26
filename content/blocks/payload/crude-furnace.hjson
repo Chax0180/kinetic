@@ -1,0 +1,60 @@
+type: multicraft.MultiCrafter
+name: Crude Furnace
+description: Smelts basic raw ores into usable metal. Requires coal.
+details: Primitive. A proper replacement should be found immedietly.
+size: 3
+health: 480
+category: production
+requirements:[
+    ktc-andesite/80
+]
+research:{
+    parent: core-depot
+}
+recipes:[
+{
+  input: {
+  items: [
+    kinetic-ktc-raw-copper/4
+    coal/1
+  ]
+  }
+  output: {
+    items: [
+      kinetic-ktc-copper/4
+    ]
+  }
+  craftTime: 300
+  craftEffect: smeltsmoke
+}
+{
+  input: {
+  items: [
+    kinetic-ktc-raw-iron/4
+    coal/1
+  ]
+  }
+  output: {
+    items: [
+      kinetic-ktc-iron/3
+    ]
+  }
+  craftTime: 300
+  craftEffect: smeltsmoke
+}
+{
+  input: {
+  items: [
+    kinetic-ktc-raw-zinc/4
+    coal/1
+  ]
+  }
+  output: {
+    items: [
+      kinetic-ktc-zinc/2
+    ]
+  }
+  craftTime: 300
+  craftEffect: smeltsmoke
+}
+]
