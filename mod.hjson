@@ -7,3 +7,6 @@ minGameVersion: 136
 version: 1.0
 hidden: true
 hideBrowser: false
+dependencies:[
+multi-crafter
+]
