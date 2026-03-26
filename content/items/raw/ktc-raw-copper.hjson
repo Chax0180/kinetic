@@ -2,3 +2,4 @@ name: Raw Copper
 description: Raw ore. Useless on its own; must be processed first.
 color: e3826c
 research: core-depot
+hardness: 1
