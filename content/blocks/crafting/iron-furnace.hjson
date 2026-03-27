@@ -1,0 +1,25 @@
+name: Iron Smelter
+type: GenericCrafter
+  size: 2
+  consumes:{
+items:[
+ktc-raw-copper/4
+coal/1
+  ]
+}
+outputItems: [
+  ktc-copper/4
+]
+craftTime: 300
+
+description: Smelts copper into a usable form.
+variants: 2
+  
+health:340
+  ambientSound: loopSmelter
+  ambientSoundVolume: 0.08
+  requirements:[
+  ktc-andesite/80
+  ]
+research:crude-burner
+category: crafting
