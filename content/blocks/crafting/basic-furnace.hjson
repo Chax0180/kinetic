@@ -1,23 +1,24 @@
 type: multicraft.MultiCrafter
 name: Heat Furnace
-description: Smelts raw ores into usable metal. Requires heat to function.
+description: Smelts and casts raw ores into usable metal. Requires heat to function. Cannot process alloys on its own.
 size: 3
 health: 1280
 category: production
 requirements:[
     ktc-iron/80
     ktc-zinc/40
+    ktc-andesite-alloy/60
 ]
 research:{
-    parent: core-depot
+    parent: crude-furnace
 }
 recipes:[
 {
   input: {
   items: [
     kinetic-ktc-raw-copper/4
-    coal/1
   ]
+heat: 2
   }
   output: {
     items: [
@@ -31,8 +32,8 @@ recipes:[
   input: {
   items: [
     kinetic-ktc-raw-iron/4
-    coal/1
   ]
+heat: 2
   }
   output: {
     items: [
@@ -46,8 +47,8 @@ recipes:[
   input: {
   items: [
     kinetic-ktc-raw-zinc/4
-    coal/1
   ]
+heat: 2
   }
   output: {
     items: [
