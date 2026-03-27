@@ -1,0 +1,25 @@
+name: Zinc Smelter
+type: HeatCrafter
+  size: 2
+  consumes:{
+items:[
+ktc-raw-zinc/4
+coal/2
+  ]
+}
+outputItems: [
+  ktc-zinc/2
+]
+craftTime: 300
+
+description: Smelts zinc into a usable form.
+variants: 2
+  
+health:340
+  ambientSound: loopSmelter
+  ambientSoundVolume: 0.08
+  requirements:[
+  ktc-andesite/80
+  ]
+research:crude-burner
+category: crafting
