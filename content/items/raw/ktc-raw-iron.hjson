@@ -1,5 +1,5 @@
 name: Raw Iron
 description: Raw ore. Useless on its own; must be processed first.
 color: 96482c
-research: ktc-copper
+research: ktc-raw-copper
 hardness: 2
