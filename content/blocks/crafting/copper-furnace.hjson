@@ -1,7 +1,5 @@
 name: Copper Smelter
-type: HeatCrafter
-  heatRequirement: 2
-  maxEfficiency: 2
+type: GenericCrafter
   size: 2
   consumes:{
 items:[
