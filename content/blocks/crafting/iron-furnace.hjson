@@ -3,12 +3,12 @@ type: GenericCrafter
   size: 2
   consumes:{
 items:[
-ktc-raw-copper/4
+ktc-raw-iron/4
 coal/1
   ]
 }
 outputItems: [
-  ktc-copper/4
+  ktc-iron/3
 ]
 craftTime: 300
 
