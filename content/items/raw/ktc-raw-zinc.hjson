@@ -1,5 +1,5 @@
 name: Raw Zinc
 description: Raw ore. Useless on its own; must be processed first.
-color: e3826c
+color: 7f9789
 research: core-depot
 hardness: 3
