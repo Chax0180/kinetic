@@ -12,7 +12,7 @@ outputItems: [
 ]
 craftTime: 300
 
-description: Smelts copper into a usable form.
+description: Smelts iron into a usable form.
 variants: 2
   
 health:340
