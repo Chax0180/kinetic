@@ -1,6 +1,6 @@
 type: multicraft.MultiCrafter
 name: Heat Furnace
-description: Smelts and casts basic raw ores into usable metal. Requires heat to function. Cannot process alloys on its own.
+description: Smelts and casts basic raw ores into usable metal. Requires heat to function. Cannot produce alloys.
 size: 3
 health: 1280
 category: production
